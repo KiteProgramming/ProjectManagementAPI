@@ -1,52 +1,41 @@
-# Prerequisites
-*.d
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+Migrations/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Mono Auto Generated Files
+mono_crash.*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Folder config file
+Desktop.ini
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# VS Code directories
+.vscode/
+.vscode/*
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Rider
+.idea/
+*.sln.iml
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
